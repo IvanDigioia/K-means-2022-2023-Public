@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="lib">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/../../../JavaFX/javafx-sdk-21.0.2/lib" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../JavaFX/javafx-sdk-21.0.2/lib" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../../JavaFX/javafx-sdk-21.0.2/lib" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../../JavaFX/javafx-sdk-21.0.2/lib" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../JavaFX/javafx-sdk-21.0.2/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../JavaFX/javafx-sdk-21.0.2/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../JavaFX/javafx-sdk-21.0.2/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>

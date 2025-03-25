@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="KmeansServer:jar2">
+    <output-path>$PROJECT_DIR$/../../../Eseguibile/Base</output-path>
+    <root id="archive" name="KmeansServer.jar">
+      <element id="module-output" name="KmeansServer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../SQL Connector/mysql-connector-j-8.3.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maininterface.ScenaUno">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Text layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Benvenuto/a" wrappingWidth="164.541015625">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Text>
+            <TextArea editable="false" layoutX="6.0" layoutY="57.0" prefHeight="149.0" prefWidth="628.0" text="Il software K-Means è un'applicazione client/service il cui scopo è raggruppare un insieme di dati in gruppi &#10;omogenei, in modo che gli elementi all'interno di ciascun gruppo siano più simili tra loro &#10;rispetto agli elementi di altri gruppi. &#10;Per poter utilizzare l'applicazione è indispendabile avere un Server in ascolto che contenga i dati.&#10;&#10;Nella parte sottostante vi sarà chiesto di scegliere se: &#10;-Caricare dati da file: legge delle tabelle da un file presente nella cartella 'File memorizzati'.&#10;-Caricare dati: salva su file i risultati ottenuti da una richiesta inoltrata al server." />
+            <Text layoutX="14.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduzione" />
+            <Button fx:id="CaricaDati" layoutX="14.0" layoutY="218.0" mnemonicParsing="false" onAction="#AvviaScenaCaricaDati" text="Carica dati" AnchorPane.leftAnchor="14.0" />
+            <Button fx:id="CaricaFile" layoutX="14.0" layoutY="252.0" mnemonicParsing="false" onAction="#AvviaScenaCaricaFile" text="Carica dati da file" />
+            <Button fx:id="Chiudi" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#Exit" text="Chiudi applicazione" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
